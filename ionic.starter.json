@@ -1,0 +1,13 @@
+{
+  "name": "Blank Starter",
+  "baseref": "main",
+  "tarignore": [
+    "node_modules",
+    "package-lock.json",
+    "yarn.lock",
+    "www"
+  ],
+  "scripts": {
+    "test": "yarn build"
+  }
+}

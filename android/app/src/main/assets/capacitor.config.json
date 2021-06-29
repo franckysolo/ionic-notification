@@ -1,0 +1,20 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic-notification",
+	"bundledWebRuntime": false,
+	"npmClient": "yarn",
+	"webDir": "dist",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		},
+		"LocalNotifications": {
+			"smallIcon": "ic_stat_icon_config_sample",
+			"iconColor": "#CE0B7C"
+		}
+	},
+	"cordova": {
+		"plugins": {}
+	},
+	"linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh"
+}
